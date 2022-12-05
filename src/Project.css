@@ -1,0 +1,49 @@
+.projects{
+    height:22vh;
+    width:100%;
+    margin-top: 1rem;
+    background-color: rgb(220, 220, 225);
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    
+}
+
+.projects>h2{
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn1{
+    display: flex;
+    width:12rem;
+    border: none;
+    color:#fff;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    padding:8px 12px;
+    background-color:  rgb(217, 34, 101);
+    
+}
+.btn1:hover{
+    background-color: #fff;
+    color:black;
+    
+}
+.apps{
+    display: flex;
+    padding: 1rem 6rem;
+    
+}
+
+@media only screen and (max-width:780px){
+    .projects{
+        width:100%;
+        display: inline-flex;
+    }
+}

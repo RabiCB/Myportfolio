@@ -1,0 +1,39 @@
+.Cards{
+    display: flex;
+    width:13rem;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding:10px 12px;
+    background-color: lightgray;
+    border-radius: 6px;
+    cursor: pointer;
+    justify-content: space-evenly;
+    flex:1;
+    
+    
+}
+
+.Cards>h3{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color:red;
+}
+.Cards>p{
+    text-align: center;
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    color:black;
+    font-weight: 600;
+}
+.Cards:hover{
+    transform: scale(1.04);
+}
+@media screen and(max-width:580px) {
+    .Cards{
+        width:15rem;
+    }
+    
+}

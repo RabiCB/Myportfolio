@@ -1,0 +1,61 @@
+.About{
+    margin-left: 10%;
+    padding-bottom: 2rem;
+    margin-top: 8rem;
+    
+}
+
+
+.about{
+    margin-top: 1.5rem;
+    
+}
+.About p{
+    margin-bottom: 0.5rem;
+}
+.card{
+    display: flex;
+    margin-left:-10%;
+    padding: 0 4rem;
+    
+}
+@media screen and (max-width:780px){
+    .About{margin-top: -2rem;}
+}
+@media screen and (max-width:580px){
+    .card{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+       
+        
+    }
+    .About{
+        margin-top: -1.60rem;
+    }
+    
+}
+@media screen and (max-width:480px){
+    .card{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        padding:0;
+         
+    }
+    .About>h1{
+        font-weight: 600;
+    }
+    .About p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        color:rgb(8, 8, 8)
+    }
+   .About{
+    margin-top: -3rem;
+   }
+    
+}
+ 

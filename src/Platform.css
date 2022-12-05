@@ -1,0 +1,47 @@
+.Platform{
+    display: flex;
+    flex-direction: column;
+    width:6rem;
+    align-items: center;
+    justify-content: center;
+    height:6.4rem;
+   
+
+
+     
+}
+
+
+
+.Platform img{
+    width:40px;
+    object-fit: contain;
+
+}
+.Platform img:hover{
+    transform: scale(1.2);
+}
+.Platform h3{
+    display: flex;
+    align-items: center;
+    margin-top: 0.4rem;
+
+}
+
+@media screen and(max-width:480px) {
+    .Platform{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .Platform>h3{
+        font-size: 1rem;
+
+    }
+    .Platform>img{
+        width:30px;
+        object-fit: contain;
+    }
+  
+    
+}
